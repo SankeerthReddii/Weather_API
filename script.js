@@ -43,7 +43,7 @@ async function updateweatherinfo(city){
     const weatherdata = await getfetchdata('weather',city);
 
     if(weatherdata.cod != 200) {
-        showDisplaySection(notFoundCity);
+        showDisplaySection(notFoundSection);
         return;
     }
     console.log(weatherdata);

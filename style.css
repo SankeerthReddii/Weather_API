@@ -191,4 +191,40 @@ margin-bottom: 40px;
 }
 /* End of Section -- Search city & message  */
 
+@media only screen and (max-width: 600px) {
+    .main-container {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+    .city {
+        font-size: 14px;
+    }
+    .search_btn {
+        right: 10px;
+    }
+    .cloudy_picture {
+        width: 80px;
+        height: 80px;
+    }
+    .forecast_items {
+        min-width: 70px;
+    }
+}
+
+/* Tablet (601px to 1024px) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .main-container {
+        width: 80%;
+        height: auto;
+    }
+    .forecast_items {
+        min-width: 80px;
+    }
+    .cloudy_picture {
+        width: 100px;
+        height: 100px;
+    }
+}
+
 

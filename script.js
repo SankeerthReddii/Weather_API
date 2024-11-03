@@ -49,6 +49,8 @@ async function updateweatherinfo(city){
     }
     console.log(weatherdata);
 
+    notFoundSection.style.display = "none";
+
     const{
         name: country,
         main : {temp, humidity },
